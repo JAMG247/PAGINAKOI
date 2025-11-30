@@ -95,10 +95,49 @@ Copiar código
 
 ---
 
+## 🧩 Arquitectura del Proyecto
+✔ Controllers
+✔ Models
+✔ Services
+✔ ClienteBLO.cs
+✔ BannerBLO.cs
+✔ Database
+✔ SqlConnectionFactory.cs
+✔ wwwroot
+✔ views
+
+---
+
+## 🔄 Flujo de Datos
+
+1. Vista solicita información  
+2. Controlador llama a servicio correspondiente  
+3. Servicio ejecuta consulta con Dapper  
+4. Se envía la respuesta hacia la vista  
+5. Contenido se muestra dinámicamente  
+
+---
+
+## 🧪 Pruebas realizadas
+
+- Verificación de consultas en SQL Server  
+- Pruebas funcionales de carga de clientes y banners  
+- Validación de endpoints en controladores  
+- Pruebas de datos incompletos o nulos  
+- Revisión de despliegue en la rama principal  
+
+---
+
+## 📌 Estado del Proyecto
+✔ Backend funcional  
+✔ Contenido dinámico  
+✔ Integración estable  
+✔ Código mantenible  
+
+---
+
 ## 👤 Autor
 **José Ángel Mora Garrido**  
 Desarrollador Backend / Full Stack Jr  
 Santiago, Chile
-
-## 🧩 Arquitectura del Proyecto
 
