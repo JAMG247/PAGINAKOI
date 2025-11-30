@@ -50,22 +50,6 @@ La plataforma reemplaza contenido estático por datos controlados desde la base 
 - Integración en la rama principal  
 
 ---
-## 🧩 Arquitectura del Proyecto
-
-/Controllers
-/Models
-/Services
-/ClienteBLO.cs
-/BannerBLO.cs
-/Database
-/SqlConnectionFactory.cs
-/wwwroot
-/views
-
-yaml
-Copiar código
-
----
 
 ## 🔄 Flujo de Datos
 
